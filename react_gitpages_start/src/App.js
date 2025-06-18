@@ -82,6 +82,7 @@ const App = () => {
   return (
     <div style={styles.appContainer}>
       <h1 style={styles.title}>Menú de Bonilla Café</h1>
+       <h2 style={styles.title}>BONILLA DOMINGUEZ MARIA FERNANDA</h2>
       <div style={styles.grid}>
         {desserts.map((item, index) => (
           <div
